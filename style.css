@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.box {
+    color: rgb(101, 97, 97);
+}
+
+.container .box-2 img{
+    height: 75px;
+}
+
+.box-1 {
+    margin-top: 10px;
+}
+
+.container .box-1 h1 a {
+    text-decoration: none;
+    color: rgb(101, 97, 97);
+}
+
+.box-2 {
+    background-color: rgb(101, 97, 97);
+    border-radius: 10%;
+}
+
+.box-3{
+    margin-top: 10px;
+}
+
+.cover-img  {
+    background-image: url("assets/asset\ 1.jpeg");
+    height: 800px;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.cover-img h1 {
+    color: white;
+    font-size: 70px;
+    width: 70rem;
+}
+
+.cover-img  .heading1 {
+    padding-top: 60vh;
+    padding-left: 10vh;
+}
+
+.cover-img  .heading2 {
+    padding-left: 10vh;
+}
+
+.head-bar {
+    background-color: #a58a8b;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.head-bar h1 {
+    align-items: center;
+    padding-top: 39px;
+}
+/* 
+.content-photo img {
+    width: 58vh;
+    height: 80vh;
+    margin-top: 100px;
+    margin-bottom: 150px;
+} */
+
+.image1 {
+    background-image: url("assets/asset\ 3.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 58vh;
+    height: 80vh;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.image2 {
+    background-image: url("assets/asset\ 4.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 58vh;
+    height: 80vh;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.image3 {
+    background-image: url("assets/asset\ 5.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 58vh;
+    height: 80vh;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.content-photo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0e4e5 ;
+}
+
+.photo {
+    background-image: url("assets/asset\ 12.jpeg");
+    background-size: cover;
+    background-position: right;
+    height: 80vh;
+    width: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+.marry-content{
+    background-color: #f0e4e5;
+    height: 80vh;
+    width: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1.1px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.marry {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f0e4e5;
+}
